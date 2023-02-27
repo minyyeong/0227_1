@@ -1,0 +1,24 @@
+@charset "UTF-8";
+* {font-family:"맑은 고딕";}
+#sub {width:1260px; height:2000px; background-color:gold;  margin:0 auto; padding:30px;}
+#sub > #img {width: 500px; height:500px; float:left; margin:30px 0 0 20px;}
+#sub > #img > img {width:100%; height:100%;}
+
+#sub > #contents {width:550px; height:600px; background-color:pink; float:left; margin:30px 0 0 80px;}
+#sub > #contents > h1 {font-weight:bold; font-size:24px; color:#000; margin:30px 0 0 0px; line-height:35px; letter-spacing:-1px;}
+#sub > #contents > h2 {font-size:13px; color:gray; margin:20px 0 0 0px; font-weight:100;}
+#sub > #contents > .tag {width:250px; height:30px; margin:15px 0 0 0px;}
+#sub > #contents > .tag > h4 {float:left; margin:0 0 0 5px; line-height:18px; text-align:center; width:70px; height:20px; font-size:11px; 
+    font-display:block; color:rgb(87, 87, 87); border-radius:10px; border:1px solid gray;}
+
+    #sub > #contents > h5 {font-size:30px; font-weight:bold; color:#000; margin:50px 0 0 0px;}
+#sub > #contents > h5:after {content:"원"; color:#000; font-size:15px; font-weight:lighter; margin:0 0 0 5px;}
+
+#sub > #contents > table { font-size:14px; width:550px; height:100px; background-color:aqua; float:left; margin:20px 0 0 0px;}
+#sub > #contents > table > tr {margin:20px 0 0 10px; float:left;}
+#sub > #contents > table > tr > td {color:#000; }
+
+button {cursor: pointer;}
+#sub > #contents > tr > td > button:first-child {width:50px; height:50px; border-radius:1px; color: #ff4949; background-color:#fff; font-size:20px; float:left; border:1px solid #999; margin:0 0 0 10px;}
+#sub > #contents > tr > td > button:nth-child(2) {width:150px; height:50px; border-radius:1px; color: #000; background-color:#fff; font-size:15px; float:left; border:1px solid #999; margin:0 0 0 10px;}
+#sub > #contents > tr > td > button:nth-child(3) {width:150px; height:50px; border-radius:1px; color: #fff; background-color:#000; font-size:15px; float:left;border:1px solid #999; margin:0 0 0 10px;}
